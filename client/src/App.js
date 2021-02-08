@@ -32,7 +32,7 @@ function App({ dataCall, account }) {
   };
 
   return (
-    <div style={{}}>
+    <div>
       <h1>Data in contract storage:</h1>
       {dataCall[cacheKey] && dataCall[cacheKey].value && (
         <p>{dataCall[cacheKey].value}</p>
